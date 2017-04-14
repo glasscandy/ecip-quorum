@@ -1,21 +1,11 @@
 $(function() {
 
-    var mbtn = $('#moreBtn');
-    var lbtn = $('#lessBtn');
+    var btn = $('.btn');
+    var ml = $('.mlBtn');
     var content = $('.hidden');
 
-    mbtn.click(function() {
-        lbtn.show();
-        mbtn.hide();
+    btn.click(function() {
+        ml.toggle();
         content.toggle();
     });
-
-    lbtn.click(function() {
-        mbtn.show();
-        lbtn.hide();
-        content.toggle();
-    });
-
 });
-
-// popraw event na this bo sie wszystkie otwierają

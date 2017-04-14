@@ -80,10 +80,10 @@ td:first-child:not(.btn) {
     width: 150px;
 }
 .btn {
-    padding: 0 47% 0 47%;
+    padding: 0 47% 10px 47%;
     text-transform: uppercase;
     font-size: 11px;
 }
-#lessBtn, .hidden, .status {
+.mlBtn:nth-child(2n), .hidden, .status {
     display: none;
 }
